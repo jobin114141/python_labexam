@@ -1,0 +1,16 @@
+class string:
+    def __init__(self):
+        self.s1=input("enter the  first string")
+        self.s2=input("enter the second string")
+
+    def compare(self,n):
+        self.fst_s1=self.s1[:n]
+        self.fst_s2=self.s2[:n]
+        if self.fst_s1 == self.fst_s2:
+            print("true")
+        else:
+            print("false")
+st=string()
+n=int(input("enter the count to check"))
+cmp= st.compare(n)
+
