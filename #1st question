@@ -1,0 +1,16 @@
+
+ch=int(input("1 for triangle,2 for rectangle,3 for circle: "))
+if ch==1:
+    ltr=int(input("enter length of triangle :"))
+    btr=int(input("enter the brth of triangle:"))
+    print("area of triangle :")
+    print(0.5*ltr*btr)
+elif ch==2:
+    lrc=int(input("enter the length of rectangle:"))
+    brc=int(input("enter the brth of rectangle:"))
+    print("area of rectangle:")
+    print(lrc*brc)
+elif ch==3:
+    rch=int(input("enter the radious of circle:"))
+    print("area of circle:")
+    print(rch**2 *3.14)
